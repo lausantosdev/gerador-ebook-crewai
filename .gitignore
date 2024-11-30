@@ -46,3 +46,13 @@ output/
 htmlcov/
 .env.local
 .env.*.local
+
+# Não ignorar
+!src/
+!tests/
+!*.py
+!requirements.txt
+!constraints.txt
+!pytest.ini
+!pyproject.toml
+!README.md
